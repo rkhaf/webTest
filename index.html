@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>   
+        function speak(){
+            alert("hello nigga")
+        }
+        function toggleSection(tipee) {
+            const section = document.getElementById(tipee);
+            if (section.style.display === "none") {
+                section.style.display = "block"; // tampilkan
+            } else {
+                section.style.display = "none"; // sembunyikan
+            }
+        }
+    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh HTML + CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="header-title">INFSHR.A</h1>
+    <div class="container"> 
+        <button class="nav-btn">HOME</button>
+        <button class="nav-btn" onclick="toggleSection('profile')">PROFILE</button>
+        <button class="nav-btn" onclick="toggleSection('gallery')">GALLERY</button>
+        <button class="nav-btn" onclick="toggleSection('contact')">CONTACT</button>
+    </div>
+  </header>
+  <section class="card-contact" id="contact" style="display: none;"></section>
+  <section class="card-profile" id="profile" style="display: none;"></section>
+  <section class="card-gallery" id="gallery" style="display: none;"></section>
+</body>
+</html>
