@@ -1,0 +1,123 @@
+body {
+background: url("asset/bgContact.png");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+/* BAGIAN HEADER */
+header {
+    font-family: "Quicksand Light", sans-serif;
+  padding: 20px 20px;
+  background: rgb(242, 231, 231);
+  display: flex;
+  justify-content: space-between;   /* kiri - kanan */
+  align-items: center;
+}
+
+/* BAGIAN TEKS INFSHR.A */
+.header-title {
+    color: #ff3c20;
+}
+
+/* BAGIAN PANEL CONTACT */
+.card-contact {
+  width: 600px;
+  height: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  background: url("asset/contact.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/* BAGIAN PANEL PROFILE */
+.card-profile {
+  width: 600px;
+  height: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  background: url("asset/profile.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/* BAGIAN PANEL GALLERY */
+.card-gallery {
+  width: 600px;
+  height: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  background: url("asset/gallery.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/* TOMBOL */
+button {
+font-family: "Arial", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #4a77ff;
+  color: white;
+  font-size: 15px;
+}
+
+.btn-header {
+font-family: "Times New Roman", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #4a77ff;
+  color: white;
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-btn {
+  padding: 8px 18px;
+  background: transparent;
+  justify-content: flex-end;
+  /* border: 2px solid #ff3c20;
+  border-radius: 6px; */
+  color: #ff3c20;
+  font-size: 16px;
+  font-family: "Quicksand Light", sans-serif;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: 0.25s ease;
+}
+
+.nav-btn:hover {
+  background: #ff3c20;
+  color: white;
+  transform: translateY(-2px);
+}
+
+button:hover {
+  background: #335bf0;
+}

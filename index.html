@@ -2,9 +2,6 @@
 <html lang="en">
 <head>
     <script>   
-        function speak(){
-            alert("hello nigga")
-        }
         function toggleSection(tipee) {
             const section = document.getElementById(tipee);
             if (section.style.display === "none") {
@@ -24,9 +21,9 @@
     <h1 class="header-title">INFSHR.A</h1>
     <div class="container"> 
         <button class="nav-btn">HOME</button>
-        <button class="nav-btn" onclick="toggleSection('profile')">PROFILE</button>
-        <button class="nav-btn" onclick="toggleSection('gallery')">GALLERY</button>
-        <button class="nav-btn" onclick="toggleSection('contact')">CONTACT</button>
+        <button class="nav-btn" onclick="window.location.href='profile.html'">PROFILE</button>
+        <button class="nav-btn" onclick="window.location.href='gallery.html'">GALLERY</button>
+        <button class="nav-btn" onclick="window.location.href='contact.html'">CONTACT</button>
     </div>
   </header>
   <section class="card-contact" id="contact" style="display: none;"></section>
