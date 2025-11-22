@@ -25,51 +25,6 @@ header {
     color: #ff3c20;
 }
 
-/* BAGIAN PANEL CONTACT */
-.card-contact {
-  width: 600px;
-  height: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  text-align: center;
-  background: url("asset/contact.png");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size:contain;
-}
-
-/* BAGIAN PANEL PROFILE */
-.card-profile {
-  width: 600px;
-  height: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  text-align: center;
-  background: url("asset/profile.png");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size:contain;
-}
-
-/* BAGIAN PANEL GALLERY */
-.card-gallery {
-  width: 600px;
-  height: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  text-align: center;
-  background: url("asset/gallery.png");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size:contain;
-}
-
 /* TOMBOL */
 button {
 font-family: "Arial", sans-serif;
